@@ -12,7 +12,35 @@ body{
     text-align:right;
   }
 
-  
+  .i{
+position:absolute;
+left: 1100px;
+bottom: 400px;
+color:rgba(73, 72, 72, 0.219);
+transform: rotate(-49deg);
+overflow: hidden;
+
+  }
+  .mobile{
+    position:absolute;
+left:50px;
+bottom: 80px;
+
+    color:rgba(73, 72, 72, 0.199);
+    transform: rotate(-60deg);   
+    z-index: 0;;
+  }
+
+
+  .code{
+    position:absolute;
+    left: 450px;
+    bottom: 350px;
+    color:rgba(73, 72, 72, 0.212);
+    z-index: 0;
+  }
+
+
 
   
   .nav-item {
@@ -30,6 +58,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow:auto;
 }
 .hero{
     color:black;
@@ -40,7 +69,9 @@ header{
 .hero::before{
     content: "Hi there!!!";
     background-color:orangered;
-    padding:5px 10px;   
+    padding:5px 10px;  
+    position: relative;
+    z-index: 1; 
 }
 h1{
     font-size: 40px;
@@ -48,6 +79,12 @@ h1{
     padding-bottom:20px;
 
 }
+.Test-heading h1, .s, .Pro-heading h1{
+    font-size: 3rem;    
+    letter-spacing: 3.5rem;
+}
+
+    
 a{
     text-decoration: none;
     color:black;
@@ -71,6 +108,14 @@ image{
     background-color: rgb(19, 19, 19);
     padding: 110px 100px;
     color:orangered;
+    position: relative;
+}
+.Pro-heading{
+    position: relative;
+    padding-bottom: 20px;;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgba(128, 128, 128, 0.274);
 }
 .card-center{
     display: flex;
@@ -88,6 +133,14 @@ image{
       
   }
   
+  .Test-heading{
+      position: absolute;
+      right: 100px;
+      font-weight: bolder;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: rgba(120, 121, 119, 0.192);
+  }
   .testimonial-text {
     font-size: 1.4rem;
     text-align: center;
@@ -133,6 +186,12 @@ image{
   .bottom-container h2{
       padding-bottom: 10px;
   }
+  .s{
+    position: absolute;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color:rgba(128, 128, 128, 0.096);
+  }
 .bottom-container a{
     color:whitesmoke;
     border-left:3px solid orangered;
@@ -153,8 +212,38 @@ image{
     .card-text, .testimonial-text, em, p, .bottom-container a{
         font-size: 0.5rem;
     }
-
-
+    .Test-heading h1, .s, .Pro-heading h1{
+        font-size: 2.2rem;    
+        letter-spacing: .5rem;
+        
+    }
+    .i{
+        position:absolute;
+        left: 250px;
+        bottom: 500px;
+        color:rgba(73, 72, 72, 0.219);
+        transform: rotate(20deg);
+        overflow: hidden;
+        
+          }
+          .mobile{
+            position:absolute;
+        left:50px;
+        bottom: 80px;
+        
+            color:rgba(73, 72, 72, 0.199);
+            transform: rotate(-60deg);   
+            z-index: 0;;
+          }
+        
+        
+          .code{
+            position:absolute;
+            left: 50px;
+            bottom: 400px;
+            color:rgba(73, 72, 72, 0.212);
+            z-index: 0;
+          }
     #testimonials {
         padding:10px;
     }
